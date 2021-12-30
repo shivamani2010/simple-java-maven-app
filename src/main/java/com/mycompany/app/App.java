@@ -6,7 +6,7 @@ package com.mycompany.app;
 public class App
 {
 
-    private final String message = "Hello World!";
+    private final String message = "Hello -- World!";
 
     public App() {}
 
@@ -15,7 +15,7 @@ public class App
     }
     
     public static int calc(int a, int b) {
-        int result1 = a * b;
+        int result1 = a + b;
         return  result1;
     }
     
